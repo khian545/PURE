@@ -2,10 +2,12 @@
 <head>
 	 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="base-min.css">
+	<!--<link rel="stylesheet" href="base-min.css">-->
 	<link rel="stylesheet" href="pure-min.css">
 	<!--<link rel="stylesheet" href="font-awesome.css">-->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	  <script src="js/responsiveslides.min.js"></script>
 	<style>
 		.pure-g > div {
 			-webkit-box-sizing: border-box;
@@ -16,10 +18,10 @@
 			padding: 1.5em;
 			background-color: none;
 		}
-		.pure-g-r { background-color: white; }
+		.pure-g-r { background: transparent; }
 				
 		.banner{
-			background: transparent url('1321969634_1366431027.jpg') 0 0 no-repeat fixed;
+			background: transparent url('Grand-Cayman-Hammock-960-x-420.jpg') 0 0 no-repeat;
 			width:100%;
 			height:350px;
 			text-align:center;
@@ -61,8 +63,8 @@
 		 */
 		@media (max-width: 480px) {
 			.nav {
-				display:none;
-			}
+					display:none;
+				}
 			.nav-phone{ display: block;}
 			.banner {
 				height: 200px;
@@ -70,8 +72,14 @@
 			.banner-head {
 				font-size: 2em;
 			}
+			.l-box{
+				border-bottom: 1px solid #eee;
+			}
 		}
+		
+		
 	</style>
+	
 </head>
 <body>
 	<div class="nav">
@@ -81,18 +89,15 @@
 				<li class="pure-menu-selected"><a href="#">Flickr</a></li>
 				<li><a href="#">Messenger</a></li>
 				<li><a href="#">Sports</a></li>
-				<li><a href="#">Finance</a></li>
-				
-				
-				
+				<li><a href="#">Finance</a></li>				
 			</ul>
 		</div>
 	</div>
-	
+	 
 	<div class="banner">
-		<h1 class="banner-head">
-			Orange Theta
-		</h1>
+				<h1 class="banner-head">
+					Orange Theta
+				</h1>
 	</div>
 	
 	<div class="nav-phone">
@@ -108,6 +113,7 @@
 	</div>
 	
     <div class="pure-g-r">
+		
         <div class="pure-u-1-3">
             <!--
             By default, grid units don't have any margin/padding.
@@ -218,9 +224,29 @@
         </div>
 	</div>
 	
-	
-	
 	<div class="footer">
+	
+	<div class="footer-nav">
+		<div class="pure-g-r">
+			<div class="pure-u-1-3">
+				<div class="l-box">
+					<h4>Social Networks</h4>
+				</div>				
+			</div>
+			<div class="pure-u-1-3">
+				<div class="l-box">
+					<h4>Social Networks</h4>
+				</div>	
+			</div>
+			<div class="pure-u-1-3">
+				<div class="l-box">
+					<h4>Social Networks</h4>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	
 		<div class="l-box">
 			Footer. All rights reserved. OrangeTheta. Copyright 2013.
 		</div>
